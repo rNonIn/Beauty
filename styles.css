@@ -22,4 +22,55 @@
 
 .menu-item-link{
     color: #000;
+} 
+/* Logo, Call Back */
+.twoside{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 20px 0;
 }
+
+.flex-center{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.logo{
+    gap: 20px;
+}
+
+.logo-name{
+    font-size: 36px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    letter-spacing: 3.6px;
+    color: #F13C6E;
+    text-transform: uppercase;
+}
+.call{
+    gap: 40px;
+}
+
+.call-link{
+    color: #000;
+    font-family: Roboto;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+.btn{
+    border: 2px solid;
+    border-radius: 40px;
+}
+
+.call-btn{
+    border-color: #F13C6E;
+    background-color: #fff;
+    padding: 12px 50px;
+}
+
+
