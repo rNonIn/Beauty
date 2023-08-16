@@ -7,7 +7,8 @@
     font-size: 14px;
     font-family: 'Roboto', sans-serif;
 }
-/* Navigation */
+/* Navigation , Navigation 2*/
+
 .nav{
     background-color: #efefef;
 }
@@ -22,6 +23,10 @@
     padding: 17px 15px;
 }
 
+.menu2{
+    border-top: 1px solid #efefef;
+}
+
 .menu2>.menu-item{
     padding: 30px 20px;
 }
@@ -31,6 +36,7 @@
 }
 
 /* Logo, Call Back */
+
 .twoside{
     display: flex;
     justify-content: space-around;
