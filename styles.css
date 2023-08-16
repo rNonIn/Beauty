@@ -11,18 +11,25 @@
 .nav{
     background-color: #efefef;
 }
+
 .menu{
     display: flex;
     justify-content: center;
     align-items: center;
 }
+
 .menu-item{
     padding: 17px 15px;
 }
 
+.menu2>.menu-item{
+    padding: 30px 20px;
+}
+
 .menu-item-link{
     color: #000;
-} 
+}
+
 /* Logo, Call Back */
 .twoside{
     display: flex;
