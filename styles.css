@@ -9,7 +9,7 @@
 }
 /* Navigation , Navigation 2*/
 
-.nav{
+.grey-bg{
     background-color: #efefef;
 }
 
@@ -49,6 +49,7 @@
     justify-content: center;
     align-items: center;
 }
+
 .logo{
     gap: 20px;
 }
@@ -68,7 +69,6 @@
 
 .call-link{
     color: #000;
-    font-family: Roboto;
     font-size: 16px;
     font-style: normal;
     font-weight: 400;
@@ -86,4 +86,76 @@
     padding: 12px 50px;
 }
 
+/* Great offer */
+
+.go{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.go-phon{
+    width: 1920px;
+    height: 604px;
+    flex-shrink: 0;
+}
+
+/* Special offers */
+
+.offers{
+    padding: 80px 15%;
+}
+
+.offers > h3{
+    color: #000;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    margin-bottom: 40px;
+}
+
+.goods{
+    gap: 30px;
+}
+
+.goods-item{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 20px;
+    padding: 25px;
+    background-color: #FFF;
+    max-width: 225px;
+}
+
+.item-image{
+    width: 125px;
+}
+
+.item-name{
+    color: #333;
+    text-align: center;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 140.625%;
+}
+
+.item-price{
+    color: #000;
+    text-align: center;
+    font-size: 21px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    letter-spacing: 1.05px;
+}
+
+.item-btn{
+    border-color: #F13C6E;
+    background-color: #F13C6E;
+    color: #FFF;
+    padding: 9px 53px;
+    text-transform: capitalize;
+}
 
