@@ -1,0 +1,365 @@
+* {
+  margin: 0;
+  padding: 0;
+  list-style-type: none;
+  text-decoration: none;
+  font-weight: normal;
+  font-size: 14px;
+  font-family: "Roboto", sans-serif;
+}
+/* Navigation , Navigation 2*/
+
+.grey-bg {
+  background-color: #efefef;
+}
+
+.menu {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.menu-item {
+  padding: 17px 15px;
+}
+
+.menu2 {
+  border-top: 1px solid #efefef;
+}
+
+.menu2 > .menu-item {
+  padding: 30px 20px;
+}
+
+.menu-item-link {
+  color: #000;
+}
+
+/* Logo, Call Back */
+
+.twoside {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  padding: 20px 0;
+}
+
+.flex-center {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.logo {
+  gap: 20px;
+}
+
+.logo-name {
+  font-size: 36px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  letter-spacing: 3.6px;
+  color: #f13c6e;
+  text-transform: uppercase;
+}
+
+.call {
+  gap: 40px;
+}
+
+.call-link {
+  color: #000;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
+
+.btn {
+  border: 2px solid;
+  border-radius: 40px;
+}
+
+.call-btn {
+  border-color: #f13c6e;
+  background-color: #fff;
+  padding: 12px 50px;
+}
+
+/* Great offer */
+
+.offer-photo {
+  width: 100%;
+}
+
+.go {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.go2 {
+  position: absolute;
+  left: 15%;
+  padding: 50px;
+  align-items: center;
+}
+
+.go-item {
+  display: flex;
+  flex-direction: column;
+  align-content: stretch;
+  gap: 35px;
+  padding: 25px;
+  max-width: 225px;
+}
+
+.offer-super {
+  color: #fff;
+  font-size: 32px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+}
+
+.offer-offer {
+  color: #fff;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 142.857%;
+  text-align: left;
+}
+
+.offer-btn {
+  border-color: #fff;
+  background-color: #f13c6e;
+  color: #fff;
+  padding: 9px 20px;
+  text-transform: capitalize;
+}
+
+/* Special offers */
+
+.offers {
+  padding: 80px 10%;
+}
+
+.offers > h3 {
+  color: #000;
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  margin-bottom: 40px;
+}
+
+.goods {
+  gap: 30px;
+}
+
+.goods-item {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 20px;
+  padding: 25px;
+  background-color: #fff;
+  max-width: 225px;
+}
+
+.item-image {
+  width: 125px;
+}
+
+.item-name {
+  color: #333;
+  text-align: center;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 140.625%;
+}
+
+.item-price {
+  color: #000;
+  text-align: center;
+  font-size: 21px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+  letter-spacing: 1.05px;
+}
+
+.item-btn {
+  border-color: #f13c6e;
+  background-color: #f13c6e;
+  color: #fff;
+  padding: 9px 53px;
+  text-transform: capitalize;
+}
+
+/* Bonuses and Visit */
+
+.card-container {
+  display: flex;
+  gap: 50px;
+  justify-content: center;
+  margin: 100px 0;
+}
+
+.card {
+  background-color: #f13c6e;
+  padding: 35px 49px 35px 49px;
+}
+
+.card-body {
+  display: flex;
+  align-items: center;
+  gap: 60px;
+}
+
+.text-container {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 50px;
+}
+
+.card-title {
+  color: #fff;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+}
+
+.card-text {
+  color: #fff;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 140.625%;
+  width: 60%;
+}
+
+.card-input {
+  border-radius: 30px;
+  background: #fff;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  border-color: transparent;
+  padding: 9px 30px 9px 25px;
+}
+
+.card-input::placeholder {
+  color: #c4c4c4;
+}
+
+.card-btn {
+  border-color: #fff;
+  background-color: transparent;
+  padding: 9px 35px;
+  color: #fff;
+  text-align: center;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
+
+/* Impuls */
+
+.impuls-block {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.impuls-container {
+  margin: 50px 0 100px 0;
+}
+
+.impuls-item {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 25px;
+  background-color: #fff;
+  border: 0.5px solid;
+  border-color: #efefef;
+  background-color: #fff;
+}
+
+.impuls-img {
+  margin: 20px 45px 7px 45px;
+}
+
+/* Popular Categories */
+
+.categories-block {
+  display: flex;
+  justify-content: center;
+  flex-direction: row-reverse;
+  gap: 35px;
+}
+
+.categories-container {
+  text-align: left;
+}
+
+.categories-title {
+  padding: 60px 100px 30px 0;
+}
+
+.categories-title > p {
+  color: #000;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 140.625%;
+}
+
+.categories-item {
+  padding: 30px 0 60px 0;
+  border-top: 1px #efefef solid;
+}
+
+.categories-item > p {
+  color: #828282;
+  font-family: Roboto;
+  font-size: 12px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 28px;
+}
+
+/* Social Media */
+
+.social-media-block {
+  border-top: 1px solid;
+  border-color: #efefef;
+}
+
+.media-logo {
+  gap: 15px;
+}
+
+/* Best Store, Privice Police */
+
+.bspp-menu {
+  display: flex;
+  justify-content: space-around;
+}
+
+.bspp-item {
+  color: #828282;
+  text-align: right;
+  font-size: 12px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  margin: 10px 0;
+}
